@@ -1,0 +1,7 @@
+*.DS_Store
+*.log
+config/local.js
+node_modules
+target
+.babelcache
+report.*.json
