@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script creates a bunch of symlinks so you can import this library in the examples you create
+
+mkdir -p ../node_modules
+ln -sfn ../example/node_modules/react/ ../node_modules/react
+ln -sfn ../../../ ./node_modules/@kaliber/library

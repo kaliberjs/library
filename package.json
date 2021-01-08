@@ -1,0 +1,23 @@
+{
+  "name": "@kaliber/library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "files": [
+    "index.js",
+    "src/**",
+    "LICENSE",
+    "readme.md",
+    "package.json"
+  ],
+  "private": false,
+  "license": "MIT",
+  "description": "A short description",
+  "repository": "https://github.com/kaliberjs/library.git"
+}
