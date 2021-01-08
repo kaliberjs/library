@@ -1,13 +1,16 @@
 {
   "name": "@kaliber/library",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
+  "keywords": [
+    "hello"
+  ],
   "files": [
+    "index.js",
     "src/**",
     "LICENSE",
     "readme.md",

@@ -1,5 +1,5 @@
 import { hello }  from '@kaliber/library'
 
-export default function App(props) {
+export default function App() {
   return <div>{hello()}</div>
 }
