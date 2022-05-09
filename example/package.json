@@ -4,15 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@kaliber/build": "^0.0.110"
+    "@kaliber/build": "^0.0.125"
   },
   "scripts": {
     "build": "NODE_ENV=production kaliber-build",
     "lint": "kaliber-lint",
     "serve": "kaliber-serve",
-    "serve:dev": "PORT=8000 CONFIG_ENV=dev kaliber-serve",
+    "serve.dev": "PORT=8000 CONFIG_ENV=dev NODE_OPTIONS='--enable-source-maps' kaliber-serve",
     "start": "npm-run-all --parallel watch serve:dev",
-    "watch": "CONFIG_ENV=dev kaliber-watch",
+    "watch": "CONFIG_ENV=dev NODE_OPTIONS='--enable-source-maps' kaliber-watch",
     "postinstall": "./bin/postInstall"
   },
   "devDependencies": {
