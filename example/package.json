@@ -11,7 +11,7 @@
     "lint": "kaliber-lint",
     "serve": "kaliber-serve",
     "serve.dev": "PORT=8000 CONFIG_ENV=dev NODE_OPTIONS='--enable-source-maps' kaliber-serve",
-    "start": "npm-run-all --parallel watch serve:dev",
+    "start": "npm-run-all --parallel watch serve.dev",
     "watch": "CONFIG_ENV=dev NODE_OPTIONS='--enable-source-maps' kaliber-watch",
     "postinstall": "./bin/postInstall"
   },
