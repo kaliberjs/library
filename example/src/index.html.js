@@ -1,4 +1,4 @@
-import App from '/App?universal'
+import App from '/App'
 import javascript from '@kaliber/build/lib/javascript'
 
 export default (
